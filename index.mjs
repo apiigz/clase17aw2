@@ -6,9 +6,9 @@ import 'dotenv/config'
 // Supabase => CLI console / libreria
 
 const pool = new Pool({
-    user: process.env.BD_HOST,
+    host: process.env.BD_HOST,
     password: process.env.BD_PASS,
-    host: process.env.BD_USER,
+    user: process.env.BD_USER,
     database: process.env.BD_NAME,
     port: process.env.BD_PORT,
 })
