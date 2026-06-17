@@ -8,6 +8,10 @@ app.get('/test', (req, res)=>{
     res.send('test funcionando')
 })
 
+app.get('/hola', (req, res)=>{
+    res.send('Gabriel Israel Vega')
+})
+
 app.listen(puerto, ()=>{
     console.log(`Escuchando server en el puerto ${puerto}`)
 })
